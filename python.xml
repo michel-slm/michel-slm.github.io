@@ -34,22 +34,5 @@ Assign Phabricator reviewers based on module ownership
 Wed, 12 Aug 2015 00:00:00 +0700
 </pubDate>
 </item>
-<item>
-<guid>
-https://michel-slm.github.io/posts/2015-08-01-hello-cryogen.html
-</guid>
-<link>
-https://michel-slm.github.io/posts/2015-08-01-hello-cryogen.html
-</link>
-<title>
-Hello Cryogen
-</title>
-<description>
-&lt;p&gt;I've been meaning to switch to a statically-generated blog for a while, and specifically to &lt;a href='http://cryogenweb.org/'&gt;Cryogen&lt;/a&gt; hosted on &lt;a href='https://pages.github.com/'&gt;GitHub Pages&lt;/a&gt;, for a combination of several reason:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;I am already writing my posts in Markdown for  &lt;a href='https://ghost.org'&gt;Ghost&lt;/a&gt;, and prior to that,  &lt;a href='http://scriptogr.am/'&gt;Scriptogr.am&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Overhead of maintaining a Ghost blog is hosted on  &lt;a href='https://www.openshift.com/products/online'&gt;OpenShift Online&lt;/a&gt;&lt;/li&gt;&lt;li&gt;I prefer Clojure to JavaScript&lt;/li&gt;&lt;li&gt;Cryogen developer &lt;a href='https://github.com/lacarmen'&gt;lacarmen&lt;/a&gt; is  amazingly responsive. This  &lt;a href='https://github.com/cryogen-project/cryogen/issues/44'&gt;request for tag-specific RSS feeds&lt;/a&gt;  is done within a day. Ghost dragged its feet on this.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Will set up Disqus integration later -- and need to work on a better-looking site theme too, but that can wait. For now, hello!&lt;/p&gt;
-</description>
-<pubDate>
-Sat, 01 Aug 2015 00:00:00 +0700
-</pubDate>
-</item>
 </channel>
 </rss>
