@@ -2,9 +2,6 @@
 <rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
 <channel>
 <atom:link href='https://michel-slm.github.io/' rel='self' type='application/rss+xml'/>
-<generator>
-clj-rss
-</generator>
 <title>
 Pensées de Michel
 </title>
@@ -15,7 +12,10 @@ https://michel-slm.github.io/
 Michel's thoughts on software development, open source, and the meaning of life
 </description>
 <lastBuildDate>
-Sun, 25 Oct 2015 23:24:20 +0700
+Tue, 03 Jan 2017 21:05:31 -0800
 </lastBuildDate>
+<generator>
+clj-rss
+</generator>
 </channel>
 </rss>

@@ -2,9 +2,6 @@
 <rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
 <channel>
 <atom:link href='https://michel-slm.github.io/' rel='self' type='application/rss+xml'/>
-<generator>
-clj-rss
-</generator>
 <title>
 Pensées de Michel
 </title>
@@ -15,34 +12,40 @@ https://michel-slm.github.io/
 Michel's thoughts on software development, open source, and the meaning of life
 </description>
 <lastBuildDate>
-Sun, 25 Oct 2015 23:24:20 +0700
+Tue, 03 Jan 2017 21:05:31 -0800
 </lastBuildDate>
+<generator>
+clj-rss
+</generator>
 <item>
 <guid>
-https://michel-slm.github.io/posts/2015-10-25-hypothesis-at-geekcamp.html
+https://michel-slm.github.io/posts/2015-10-25-hypothesis-at-geekcamp/
 </guid>
 <link>
-https://michel-slm.github.io/posts/2015-10-25-hypothesis-at-geekcamp.html
+https://michel-slm.github.io/posts/2015-10-25-hypothesis-at-geekcamp/
 </link>
 <title>
 Property-based Testing in Python with Hypothesis @ GeekCamp.ID
 </title>
 <description>
-&lt;p&gt;Several months ago I discovered David R. MacIver's impressive property-based testing library for Python, &lt;a href='https://hypothesis.readthedocs.org/'&gt;Hypothesis&lt;/a&gt;. Having been a big fan of Haskell's QuickCheck -- but not having much opportunity to use Haskell in daily life -- this is hugely exciting. A mature property-testing tool, targeting a popular dynamic language ... soon afterwards I &lt;a href='https://apps.fedoraproject.org/packages/python-hypothesis/overview/'&gt;packaged this library for Fedora&lt;/a&gt; -- fellow Fedora users can install it with a simple&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;dnf install python-hypothesis
+&lt;p&gt;Several months ago I discovered David R. MacIver's impressive property-based testing library for Python, &lt;a href='https://hypothesis.readthedocs.org/'&gt;Hypothesis&lt;/a&gt;. Having been a big fan of Haskell's QuickCheck &amp;ndash; but not having much opportunity to use Haskell in daily life &amp;ndash; this is hugely exciting. A mature property-testing tool, targeting a popular dynamic language ... soon afterwards I &lt;a href='https://apps.fedoraproject.org/packages/python-hypothesis/overview/'&gt;packaged this library for Fedora&lt;/a&gt; &amp;ndash; fellow Fedora users can install it with a simple&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;dnf install python-hypothesis
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;or, to specify the Python interpreter explicitly,&lt;/p&gt;&lt;pre&gt;&lt;code class=&quot;shell&quot;&gt;dnf install python2-hypothesis
 dnf install python3-hypothesis
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The next step is obviously to evangelize this tool's adoption. After trialing (&quot;alpha testing&quot;) the subject at a work study session, and beta testing it at a recent Python meetup (thanks guys!), the final version of the presentation debuted at &lt;a href='http://geekcamp.id'&gt;GeekCamp.ID&lt;/a&gt; on October 24th.&lt;/p&gt;&lt;p&gt;Currently the &lt;a href='https://speakerdeck.com/michelslm/property-based-testing-in-python-with-hypothesis'&gt;slides&lt;/a&gt; and &lt;a href='https://github.com/michel-slm/talk--property-based-testing--hypothesis'&gt;examples&lt;/a&gt; used in the talk are available; will post the link to the video recording here when it becomes available.&lt;/p&gt;&lt;p&gt;Do check them out if you are interested, and feel free to hit me with any question on &lt;a href='https://plus.google.com/+MichelAlexandreSalim'&gt;Google+&lt;/a&gt; or &lt;a href='https://twitter.com/michel&amp;#95;slm'&gt;Twitter&lt;/a&gt;!&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The next step is obviously to evangelize this tool's adoption. After trialing (&quot;alpha testing&quot;) the subject at a work study session, and beta testing it at a recent Python meetup (thanks guys!), the final version of the presentation debuted at &lt;a href='http://geekcamp.id'&gt;GeekCamp.ID&lt;/a&gt; on October 24th.&lt;/p&gt;&lt;p&gt;Currently the &lt;a href='https://speakerdeck.com/michelslm/property-based-testing-in-python-with-hypothesis'&gt;slides&lt;/a&gt; and &lt;a href='https://github.com/michel-slm/talk&amp;ndash;property-based-testing&amp;ndash;hypothesis'&gt;examples&lt;/a&gt; used in the talk are available; will post the link to the video recording here when it becomes available.&lt;/p&gt;&lt;p&gt;Do check them out if you are interested, and feel free to hit me with any question on &lt;a href='https://plus.google.com/+MichelAlexandreSalim'&gt;Google+&lt;/a&gt; or &lt;a href='https://twitter.com/michel_slm'&gt;Twitter&lt;/a&gt;!&lt;/p&gt;
 </description>
+<enclosure>
+
+</enclosure>
 <pubDate>
-Sun, 25 Oct 2015 00:00:00 +0700
+Sun, 25 Oct 2015 00:00:00 -0700
 </pubDate>
 </item>
 <item>
 <guid>
-https://michel-slm.github.io/posts/2015-08-12-phabricator-utils.html
+https://michel-slm.github.io/posts/2015-08-12-phabricator-utils/
 </guid>
 <link>
-https://michel-slm.github.io/posts/2015-08-12-phabricator-utils.html
+https://michel-slm.github.io/posts/2015-08-12-phabricator-utils/
 </link>
 <title>
 Assign Phabricator reviewers based on module ownership
@@ -50,8 +53,11 @@ Assign Phabricator reviewers based on module ownership
 <description>
 &lt;p&gt;At &lt;a href='https://www.traveloka.com/'&gt;Traveloka&lt;/a&gt;, Indonesia's leading travel booking site, we use &lt;a href='http://phabricator.org/'&gt;Phabricator&lt;/a&gt; for code reviews - and as a growing company it might not be straightforward to figure out who is knowledgeable about a particular part of the code base and thus would be a good reviewer.&lt;/p&gt;&lt;p&gt;Inspired by Quora's &lt;a href='https://engineering.quora.com/Moving-Fast-With-High-Code-Quality'&gt;Moving Fast With High Code Quality&lt;/a&gt; post, we are thus implementing a review routing system - the code is live on GitHub at &lt;a href='https://github.com/traveloka/phabricator-utils'&gt;phabricator-utils&lt;/a&gt;. It's written in Python (hey, we're a Java/JS/Python shop), though we do plan to contribute closer to the Phabricator codebase itself and that will be in PHP.&lt;/p&gt;&lt;p&gt;Code is licensed under the Mozilla Public License version 2 - if you find it useful, contribution is welcome!&lt;/p&gt;
 </description>
+<enclosure>
+
+</enclosure>
 <pubDate>
-Wed, 12 Aug 2015 00:00:00 +0700
+Wed, 12 Aug 2015 00:00:00 -0700
 </pubDate>
 </item>
 </channel>

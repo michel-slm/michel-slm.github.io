@@ -2,9 +2,6 @@
 <rss version='2.0' xmlns:atom='http://www.w3.org/2005/Atom'>
 <channel>
 <atom:link href='https://michel-slm.github.io/' rel='self' type='application/rss+xml'/>
-<generator>
-clj-rss
-</generator>
 <title>
 Pensées de Michel
 </title>
@@ -15,23 +12,29 @@ https://michel-slm.github.io/
 Michel's thoughts on software development, open source, and the meaning of life
 </description>
 <lastBuildDate>
-Sun, 25 Oct 2015 23:24:20 +0700
+Tue, 03 Jan 2017 21:05:31 -0800
 </lastBuildDate>
+<generator>
+clj-rss
+</generator>
 <item>
 <guid>
-https://michel-slm.github.io/posts/2015-08-01-hello-cryogen.html
+https://michel-slm.github.io/posts/2015-08-01-hello-cryogen/
 </guid>
 <link>
-https://michel-slm.github.io/posts/2015-08-01-hello-cryogen.html
+https://michel-slm.github.io/posts/2015-08-01-hello-cryogen/
 </link>
 <title>
 Hello Cryogen
 </title>
 <description>
-&lt;p&gt;I've been meaning to switch to a statically-generated blog for a while, and specifically to &lt;a href='http://cryogenweb.org/'&gt;Cryogen&lt;/a&gt; hosted on &lt;a href='https://pages.github.com/'&gt;GitHub Pages&lt;/a&gt;, for a combination of several reason:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;I am already writing my posts in Markdown for  &lt;a href='https://ghost.org'&gt;Ghost&lt;/a&gt;, and prior to that,  &lt;a href='http://scriptogr.am/'&gt;Scriptogr.am&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Overhead of maintaining a Ghost blog is hosted on  &lt;a href='https://www.openshift.com/products/online'&gt;OpenShift Online&lt;/a&gt;&lt;/li&gt;&lt;li&gt;I prefer Clojure to JavaScript&lt;/li&gt;&lt;li&gt;Cryogen developer &lt;a href='https://github.com/lacarmen'&gt;lacarmen&lt;/a&gt; is  amazingly responsive. This  &lt;a href='https://github.com/cryogen-project/cryogen/issues/44'&gt;request for tag-specific RSS feeds&lt;/a&gt;  is done within a day. Ghost dragged its feet on this.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Will set up Disqus integration later -- and need to work on a better-looking site theme too, but that can wait. For now, hello!&lt;/p&gt;
+&lt;p&gt;I've been meaning to switch to a statically-generated blog for a while, and specifically to &lt;a href='http://cryogenweb.org/'&gt;Cryogen&lt;/a&gt; hosted on &lt;a href='https://pages.github.com/'&gt;GitHub Pages&lt;/a&gt;, for a combination of several reason:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;I am already writing my posts in Markdown for  &lt;a href='https://ghost.org'&gt;Ghost&lt;/a&gt;, and prior to that,  &lt;a href='http://scriptogr.am/'&gt;Scriptogr.am&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Overhead of maintaining a Ghost blog is hosted on  &lt;a href='https://www.openshift.com/products/online'&gt;OpenShift Online&lt;/a&gt;&lt;/li&gt;&lt;li&gt;I prefer Clojure to JavaScript&lt;/li&gt;&lt;li&gt;Cryogen developer &lt;a href='https://github.com/lacarmen'&gt;lacarmen&lt;/a&gt; is  amazingly responsive. This  &lt;a href='https://github.com/cryogen-project/cryogen/issues/44'&gt;request for tag-specific RSS feeds&lt;/a&gt;  is done within a day. Ghost dragged its feet on this.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Will set up Disqus integration later &amp;ndash; and need to work on a better-looking site theme too, but that can wait. For now, hello!&lt;/p&gt;
 </description>
+<enclosure>
+
+</enclosure>
 <pubDate>
-Sat, 01 Aug 2015 00:00:00 +0700
+Sat, 01 Aug 2015 00:00:00 -0700
 </pubDate>
 </item>
 </channel>
